@@ -8,7 +8,6 @@
     margin: 0;
     padding: 20px 20px;
     min-height: 480px;
-    transform: scalae(1.2);
     transform-origin: top left;
 }
 
@@ -34,6 +33,17 @@
     overflow: hidden;
 }
 
+hr{
+    display: flex;
+    border: 0; 
+    height: 2px; 
+    background-color: #08a4d3;
+    box-shadow: 0 0 12px 3px rgba(6, 182, 235, 0.7);
+    width: 90%; 
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
 /* PROFILE */
 
 .profile-div{
@@ -56,7 +66,7 @@
 .uni{
     display: flex;
     font-family: doto;
-    font-weight:bold;
+    font-weight:700;
     font-size: 150%;
     color: rgb(183, 183, 183);
     text-decoration: none;
@@ -68,10 +78,12 @@
 .BVDU{
     text-decoration: none;
     color: inherit;
+    font-weight: 900;
 }
 
 .BVDU:hover{
     text-decoration: underline;
+    color: rgb(0, 174, 174);
 }
 
 /* intro text */
@@ -85,18 +97,25 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.learn-more{
+    font-weight: 800;
+    color: rgb(183, 183, 183);
+}
+
+.learn-more:hover{
+    color: rgb(249, 48, 48);
 }
 
 /* languages i know */
 
 .languages{
 
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px 20px 30px ;
 }
 
 .text{
@@ -264,9 +283,7 @@
 /* SOCIALS */
 
 .social{
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px;
 }
 
 .contact-me{
@@ -276,7 +293,7 @@
     color: rgb(183, 183, 183);
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 /* main-social */
